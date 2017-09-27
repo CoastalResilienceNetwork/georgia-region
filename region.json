@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Cities", "url": "" },
+    "titleMain": { "text": "Georgia", "url": "" },
     "titleDetail": { "text": "Georgia", "url": "http://coastalresilience.org/georgia" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
@@ -21,10 +21,10 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -77.706251235,
-        34.617736572,
-        -74.328135392,
-        36.405587596
+        -81.95,
+        30.70,
+        -81.40,
+        31.17
     ],
     "basemaps": [
         { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
@@ -60,7 +60,7 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Georiga",
-            "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/north-carolina/' target='_blank'><b>North Carolina</b></a> home page.</p>",
+            "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/georgia' target='_blank'><b>Georgia</b></a> home page.</p>",
              "plugins": [   
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
