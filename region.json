@@ -1,7 +1,7 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/georgia" },
+    "titleMain": { "text": "Cities", "url": "" },
     "titleDetail": { "text": "Georgia", "url": "http://coastalresilience.org/georgia" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
@@ -21,10 +21,10 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -81.95,
-        30.70,
-        -81.40,
-        31.17
+        -77.706251235,
+        34.617736572,
+        -74.328135392,
+        36.405587596
     ],
     "basemaps": [
         { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
