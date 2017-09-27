@@ -1,0 +1,143 @@
+{
+    "language": "es",
+    "googleAnalyticsPropertyId": "7401895-14",
+    "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
+    "titleMain": { "text": "La Resiliencia Costera", "url": "http://coastalresilience.org/" },
+    "titleDetail": { "text": "Baja Sur, Mexico", "url": "http://coastalresilience.org/" },
+	"headerLinks": [
+        { "text": "EMPEZAR", "launchpadId": "get-started", "url": "" },
+        { "text": "GIRA", "url": "javascript:;", "elementId": "help-overlay-start"},
+        { "text": "IR", "url": "#", "items": [
+                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+                { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
+                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
+            ]
+        },
+        { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
+        { "text": "Fogonadura", "url": "partners.html", "popup": true },
+        { "text": "Datos legales", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+    ],
+    "initialExtent": [
+        -120,
+        20,
+        -98,
+        35
+    ],
+    "basemaps": [
+        { "name": "Topográfica"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Mar"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Imágenes"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Calles"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terreno"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+    ],
+    "pluginOrder": [
+        "layer_selector",
+		"flood_slr",
+		"community_planning",
+        "zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent",
+        "subregion_toggle"
+    ],
+    "print": {
+        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+    },
+    "colors": {
+       "primary": "#26648E",
+       "secondary": "#26648E"
+    },
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "subregions": {
+        "hideAtZoomLevel": 8,
+        "color": "#00C5CD",
+        "outlineColor": "#008000",
+        "opacity": 0.2,
+        "clickToFocus": true,
+        "hideByDefault": false,
+        "areas": [
+            {
+                "id": "Cabo San Lucas",
+                "display": "Cabo San Lucas",
+                "details": "Cabo San Lucas, Baja Sur, Mexico",
+                "shape": [[-109.97171920265123, 22.871954054354056], [-109.97171920265123, 22.927218451590626], [-109.89394378490272, 22.927218451590626], [-109.89394378490272, 22.871954054354056], [-109.97171920265123, 22.871954054354056]],
+                "availablePlugins": ["layer_selector", "community_planning"],
+                "outlineColor": "#000",
+                "noFill": true
+            },
+            {
+                "id": "La Paz",
+                "display": "La Paz",
+                "details": "La Paz, Baja Sur, Mexico",
+                "shape": [[-110.35229836087498, 24.04618613369941], [-110.35229836087498, 24.186689036457295], [-110.25311347670672, 24.186689036457295], [-110.25311347670672, 24.04618613369941], [-110.35229836087498, 24.04618613369941]],
+                "availablePlugins": ["layer_selector", "community_planning"],
+                "outlineColor": "#000",
+                "noFill": true
+            },
+            {
+                "id": "Puerto San Carlos",
+                "display": "Puerto San Carlos",
+                "details": "Puerto San Carlos, Baja Sur, Mexico",
+                "shape": [[-112.12189265111316, 24.777982634236757], [-112.12189265111316, 24.79751042415788], [-112.08982549131426, 24.79751042415788], [-112.08982549131426, 24.777982634236757], [-112.12189265111316, 24.777982634236757]],
+                "availablePlugins": ["layer_selector", "community_planning"],
+                "outlineColor": "#000",
+                "noFill": true
+            },
+            {
+                "id": "San Jose del Cabo Centro",
+                "display": "San Jose del Cabo Centro",
+                "details": "San Jose del Cabo Centro, Baja Sur, Mexico",
+                "shape": [[-109.74361555054995, 23.037528414181068], [-109.74361555054995, 23.11492466146094], [-109.68651258003956, 23.11492466146094], [-109.68651258003956, 23.037528414181068], [-109.74361555054995, 23.037528414181068]],
+                "availablePlugins": ["layer_selector", "community_planning"],
+                "outlineColor": "#000",
+                "noFill": true
+            }
+        ]
+    },
+     "launchpads": [
+        {
+            "id": "get-started",
+            "title": "Getting Started",
+            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
+            "showSubRegions": true,
+            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
+            "showByDefault": true,
+            "categories": [
+              {
+                "name": "One-click Interactive Map",
+                "description": "Custom maps for adaptation, conservation and restoration planning",
+                "issues": [
+                    {
+                      "name": "Explore Cyclone Risk",
+                      "description": "temp Example generated for baja stakeholder presentation",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky0xMzM5MTY3Mi4yxYY5MjcxNMSaecWBxJMyNjUyMjEwLsWbOTk4OTQ5NsS/xKl4xIjFhDHFkzc0ODEuMDgzNMWwxacyxZXFqsSIMzc1NcW3OS7Fi8WcMMW1NsWoxIFwYXRpxJZSZWZlxITEncS4xIkid2tpZMSIxZ7FncaIxJpsxo5lc3RXxpzGnjozODU3xKciX8aNcnTEojpbxK3Er8SxxLPEtcS3xLnEu8a8xanFgsWsxYXFh8WJxYvFjcWPxZHFk8W8x4Q6xZnFm8ahxaAyxaLFpMWmxovFgGHFqzrFrcWvxbHFs8W1xbfFuTbFuyLFlsebxb7GgMaCxabGhcWcMsaIOMaKxJrEi8aOxpBsxpLGlMaWY8aYxIDGm8adxp8wxqEwxqPGpcanxqnIgMasxq7GsMaxZnJhbWVJZMa3WzBdfciYx7RlbGVjxLBkQmHEmMSpcEluZMSuxIgwxrHGjW5lxKvGmciuZU51bWLGlcirx7R0xqVPZlBsdWfFgsa3xIrInMieyKDJgMmCx48ixIzJi25zL8akecaVX8SYyJ3In29yIsSayY7Jg8mQxLPJnsmEyZJhyZRyyZbJh8mZyZvGmXJvb3QvyKJqYcmxYcmzxbczxoI2xb/GrcWHNDA0xZMyNMW3NDQ1NDbFuMSzb8aNY8SOecirxoXEmmNoyJ5rZcarxKTEmMaxdsaVc2lvxJMixbMxyZwiya3Jr8m1ybPKq2HFpjUwNTHFm8aCyojGgcqMyo7KkMqSN8qUypZjypjGq3RydcSZInZpyqBiyJ1MyaXGlciTyJXFm8iYyK3JgcmfyZFmbMmuZMmWbMmrxIDKqcmwybLJtMuhxq81xq7FpzA2xYnFmTPFmsaKxYo2OMq4YcqPxLXKu8q9ypfKmcSIy4LLhMSay4fLicuLy41yy4/EiFvJuyw1OSw2yJfKncqfyqHKo8qlyqfLn8qtyq03MMWSNzfLssu0ypE6xZ/KvCLKlcu4yprElsqcfcynzKc=",
+                      "faIcon": "fa fa-exclamation-triangle",
+                      "faSize": 32
+                    },
+                    {
+                      "name": "Infrastructure and Habitat",
+                      "description": "temp example generated for baja stakeholder presentation",
+                      "saveCode": "e34df34rd3....3434",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOnRydWUsxIF5bmNNYXBzxIjElcSXfcSZbcSfMMSIxIBleHTEhnTEqiJ0eXBlxIgixKzErm7EsMSZeG1pxJMtMTI0ODExNDEuMDcwMTAwNjY5xJl5xL/EkzI4NDc2MDguNzI1NjIwOTgzxL3Ep3jEiMWCxYTFnDnFnS45xaXFh8WkxYPFlcWrxIjFmTUxOTE3Ljg2M8WmxZE3MzXEmcSLYXRpYWxSZWZlxITEnMS2xIkid2tpZMSIxY8yxY8wxJlsxo1lc3RXxpzGnjozODU3xKUiX3BhcnTEoTpbxKvErcSvxLHEs8S1xLfEuca+xarFgMWtxYPFhcWHxYnFi8WNxqLFksWUIsWWx4Y6xZnFm8WdxZ/FocWjxaXFp8WpIsS+YcWsOsWux5bFsTDFs8W1McW3MsW5x6DFu8avxb7GgMaCxoTGhjbGiMaKxIHGtcaOxpDGksaUxpZjxpjEgMabxp3GnzDGocWQxqTGpsaoxqrIg8atxq/GscayZnJhbWVJZMa5WzBdfcibxotlbGVjxK5kQmFzZcSncEluZMSsxIgwxrLIqTHEsceDxLvGv8S0xpjEuMa9yLbHhcWBx4jFhsWIxYrFjMWOxZDHj8W5x5PHlcWcxZ7FoMWixaTFpsWoxarHrceix4jFsMWyxbTFjsepxqHHq8eRxbrHlMevxb/GgcaDxoU5xofGicaLx7nGj8aRxpPGlcSGx7/EsciCxqzGoMaiyIjErsiKxqvEiMauxrDGssa0xrbGuMSIxrvIusS6xLDGmceAyLnItcS8x57Fl8eHxYTJgMeLyYPHjsWTyYfFmMWayYrHmMmNx5vJkMqJyZLHo8mVx6bJl8W2yZrHrMehxbzHsMmhx7PJpMe1yabHuMaNyanHvMmsxpfJr8m3OsmyyIcixqXJtcapyrLJuciPxJnIkciTyJXIl8m/yJrInMayyKfIoMiiZcikyKbIqMSfyKvIrcehyLDEmca1bmXEqcaZy5NlTnVtYsaVyK/Gi3TGpk9mUGx1Z8WAxrnEisifyKHIo8uly6fHkyLEjMuwbnMvY29tbXVuxI55xrTGpW7LvW5nIsuSy6bLqMu1xLHLs8yJy7bGpXnGlV/Lhsutb3LEsXJvb3QvyKVqYcycYcyeMzTGiTPGhMaIxag5NDDFiTTFhMyjNDQ1NDbFm8Sxb8a1Y8u+yK/FoMSZY2jIoWvLicSIZsaQyKfGsnbGlXNpb8STIsWKyLPEmcyYzJrMoMyezZVhNDk1MMW9NcWixonMsjXMt8y5zLs6x6Y3zL7NgGPNgsaszYVszYfGssyMy6nLt8u5y7vLvcSzzIBhzILFgMyFxpnNk8ybzJ3Mn86BxYPMo8WjN82jYcy6xLPMvM2oIsy/zYHNgzrNrs2HxJnNiXLNi82NxLfNkMyGIs2/zZfNl8W/yZjFgzEzyYHFvTbOiM6Kec6MzanOkM2tzYZlxrLOns6BzZcxxYbJl8maMjIzxYTOqc2lzafOrc2rzpHEo8SYInZpzYtiyKBMYcyQcsiWyJjOtizFvizGocidzp3Mmc6AzKHOgs+bMsWkxaE4MjnGhc6lzrzOvs6LzabMvc6OzarNrM2EzrB9z7DPsMuSzbplyLPLl8+0y5rLnMueyrPLoMuiy6TMiMupxLHMk8uIZMuvzInEt82yy7UvzI/MkdCDdMyVzpzQicuqy7LQgNCK0IxyzJLLrMii0JDNvs+Zzp/OgcyjzKXMp8auM8yqzKzFiMyvzLHMssy0zLbGmcy4zonOv8+qzo/Pgsasz4TOlc+Iac+KZc+Mz47PkMm/zKYsxYnPl86WzpjNjs6bzZLQns60zoHNmc2bzZ3Nn8yzNc2i0K7NpM+oz4DPq86uz67Nr86xz7HPsA==",
+                      "faIcon": "fa fa-building-o",
+                      "faSize": 32
+                    }
+                  ]
+              }
+            ]
+        }
+    ]
+}
+
