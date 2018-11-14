@@ -1,25 +1,33 @@
 [
     {
-        "displayName": "Baja",
+        "displayName": "Camden County",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Baja/",
-            "name": "Baja"
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Georgia",
+            "name": "Georgia"
         },
         "includeLayers": [
             {
-                "name": "Ecological Assets",
+                "name": "Critical Infrastructure",
 				"includeAllLayers": true				
             },
 			{
-                "name": "Social and Economic Assets",
-				"includeAllLayers": true,	
-				"description" : "The Habitat map service features data including but not limited to salt marshes, sea grasses, and current and historical oyster reefs. A brief description and metadata appear when you click on each layer."
+                "name": "FEMA Flood",
+				"includeAllLayers": true
             },
 			{
-				"name" : "Cyclone Odile 2014",
+				"name" : "Future LandUse",
 				"includeAllLayers": true
+			},
+			{
+				"name" : "2018 Parcels (zoom to view)"
+			},
+			{
+				"name" : "SLOSH"
+			},
+			{
+				"name" : "Current Zoning"
 			}
         ]
     }
