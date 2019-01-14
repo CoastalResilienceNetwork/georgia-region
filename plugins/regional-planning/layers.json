@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/Georgia",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
             "name": "Georgia"
         },
         "includeLayers": [
@@ -28,6 +28,10 @@
 			},
 			{
 				"name" : "Current Zoning"
+			},
+			{
+				"name" : "Flood and SLR Layers",
+				"includeAllLayers": true
 			}
         ]
     }
