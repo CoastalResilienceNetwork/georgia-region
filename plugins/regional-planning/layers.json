@@ -24,10 +24,15 @@
 				"name" : "2018 Parcels (zoom to view)"
 			},
 			{
-				"name" : "SLOSH"
+				"name" : "Current Zoning"
 			},
 			{
-				"name" : "Current Zoning"
+				"name" : "Flood and SLR Layers",
+				"includeAllLayers": true
+			},
+			{
+				"name" : "Ecological",
+				"includeAllLayers": true
 			}
         ]
     }
