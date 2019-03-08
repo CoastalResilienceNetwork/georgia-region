@@ -61,7 +61,7 @@
              "plugins": [   
                 {
                     "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
-                    "description": "Place holder text",
+                    "description": "Locally specific information to help support community-level engagement processes, inform decisions, and track successes.",
                     "pluginName": "regional-planning"
                 }  
             ],
