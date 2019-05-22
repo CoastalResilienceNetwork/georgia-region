@@ -13,10 +13,6 @@
 				"includeAllLayers": true				
             },
 			{
-                "name": "FEMA Flood",
-				"includeAllLayers": true
-            },
-			{
 				"name" : "Future LandUse",
 				"includeAllLayers": true
 			},
@@ -24,16 +20,97 @@
 				"name" : "2018 Parcels (zoom to view)"
 			},
 			{
-				"name" : "Current Zoning"
-			},
-			{
-				"name" : "Flood and SLR Layers",
-				"includeAllLayers": true
-			},
-			{
 				"name" : "Ecological",
 				"includeAllLayers": true
-			}
+			},
+			{
+		        "displayName": "Flood and SLR Layers",
+		        "server": {
+		            "type": "ags",
+		            "layerType": "dynamic",
+		            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+		            "name": "Georgia"
+		        },
+		        "includeLayers": [
+					{
+		                "name": "FEMA Flood",
+						"includeAllLayers": true
+		            },
+					{
+						"name" : "Flood and SLR Layers",
+						"includeAllLayers": true
+					},
+					{
+						"displayName": "App Scenarios",
+						"server": {
+							"type": "ags",
+							"layerType": "dynamic",
+							"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+							"name": "Flood_and_SLR"
+						},
+						"includeLayers" : [
+							{
+								"name" : "Flood and SLR Layers",
+								"includeAllLayers": true
+							}
+						]
+					}
+				]
+			},
+		    {
+		        "displayName": "Current Zoning",
+		        "server": {
+		            "type": "ags",
+		            "layerType": "dynamic",
+		            "url": "https://maps.crc.ga.gov/crcarcgis/rest/services/Camden"
+		        },
+		        "includeLayers": [
+		            {
+		                "server": {
+		                "name": "CamdenZoning_Current"
+		                },
+		                "name": "CRC_Cam039.DBO.AllCityLimits",
+		                "displayName": "City Boundaries"
+		            },
+		            {
+		                "server": {
+		                "name": "CamdenZoning_Current"
+		                },
+		                "name": "CRC_Cam039.DBO.LandUseCurrent_2018",
+		                "displayName": "County Boundaries"
+		            },
+		            {
+		                "server": {
+		                "name": "CamdenZoning_Current"
+		                },
+		                "name": "CRC_Cam039.DBO.Kingsland_LU_2017",
+		                "displayName": "Kingsland"
+		            },
+		            {
+		                "server": {
+		                "name": "CamdenZoning_Current"
+		                },
+		                "name": "CRC_Cam039.DBO.Woodbine_ELU",
+		                "displayName": "Woodbine"
+		            },
+		            {
+						"displayName": "St. Mary's",
+						"server": {
+							"type": "ags",
+							"layerType": "dynamic",
+							"url": "https://maps.crc.ga.gov/crcarcgis/rest/services/GeodataService_StM",
+							"name": "StM_Base"
+						},
+						"includeLayers" : [
+							{
+								"name": "CRC_Cam039.DBO.City_Zoning_StM67984"
+							}
+						]
+					}
+
+        		]
+    		}
+		    
         ]
     }
 ]
