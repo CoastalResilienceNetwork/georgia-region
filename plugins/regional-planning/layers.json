@@ -61,20 +61,6 @@
 								"includeAllLayers": true
 							}
 						]
-					},
-					{
-						"displayName": "Flood App Scenarios",
-						"server": {
-							"type": "ags",
-							"layerType": "dynamic",
-							"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
-							"name": "Flood_and_SLR"
-						},
-						"includeLayers" : [
-							{
-								"includeAllLayers": true
-							}
-						]
 					}
 				]	
 			},
@@ -83,7 +69,8 @@
 		        "server": {
 		            "type": "ags",
 		            "layerType": "dynamic",
-		            "url": "https://maps.crc.ga.gov/crcarcgis/rest/services/Camden"
+		            "url": "https://maps.crc.ga.gov/crcarcgis/rest/services/Camden",
+		            "name": "CamdenZoning_Current"
 		        },
 		        "includeLayers": [
 		            {
