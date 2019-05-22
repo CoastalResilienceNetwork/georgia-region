@@ -33,15 +33,37 @@
 		        },
 		        "includeLayers": [
 					{
-		                "name": "FEMA Flood",
-						"includeAllLayers": true
-		            },
-					{
-						"name" : "Flood and SLR Layers",
-						"includeAllLayers": true
+						"displayName": "FEMA Flood Zones",
+						"server": {
+							"type": "ags",
+							"layerType": "dynamic",
+							"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+							"name": "Georgia"
+						},
+						"includeLayers" : [
+							{
+								"name": "FEMA Flood",
+								"includeAllLayers": true
+							}
+						]
 					},
 					{
-						"displayName": "App Scenarios",
+						"displayName": "Flood Layers",
+						"server": {
+							"type": "ags",
+							"layerType": "dynamic",
+							"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+							"name": "Georgia"
+						},
+						"includeLayers" : [
+							{
+								"name": "Flood and SLR Layers",
+								"includeAllLayers": true
+							}
+						]
+					},
+					{
+						"displayName": "Flood App Scenarios",
 						"server": {
 							"type": "ags",
 							"layerType": "dynamic",
@@ -54,7 +76,7 @@
 							}
 						]
 					}
-				]
+				]	
 			},
 		    {
 		        "displayName": "Current Zoning",
