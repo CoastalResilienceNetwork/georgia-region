@@ -74,30 +74,19 @@
 		        },
 		        "includeLayers": [
 		            {
-		                "server": {
-		                "name": "CamdenZoning_Current"
-		                },
+
 		                "name": "CRC_Cam039.DBO.AllCityLimits",
 		                "displayName": "City Boundaries"
 		            },
 		            {
-		                "server": {
-		                "name": "CamdenZoning_Current"
-		                },
 		                "name": "CRC_Cam039.DBO.LandUseCurrent_2018",
 		                "displayName": "County Boundaries"
 		            },
 		            {
-		                "server": {
-		                "name": "CamdenZoning_Current"
-		                },
 		                "name": "CRC_Cam039.DBO.Kingsland_LU_2017",
 		                "displayName": "Kingsland"
 		            },
 		            {
-		                "server": {
-		                "name": "CamdenZoning_Current"
-		                },
 		                "name": "CRC_Cam039.DBO.Woodbine_ELU",
 		                "displayName": "Woodbine"
 		            },
@@ -117,7 +106,22 @@
 					}
 
         		]
-    		}
+    		},
+    		{
+		        "displayName": "Flood App Scenarios",
+		        "server": {
+		            "type": "ags",
+		            "layerType": "dynamic",
+		            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+		            "name": "Flood_and_SLR"
+		        },
+		        "includeLayers": [
+					{
+						
+						"includeAllLayers": true
+					}
+				]
+			}
 		    
         ]
     }
