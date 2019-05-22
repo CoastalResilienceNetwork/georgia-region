@@ -50,7 +50,6 @@
 						},
 						"includeLayers" : [
 							{
-								"name" : "Flood and SLR Layers",
 								"includeAllLayers": true
 							}
 						]
