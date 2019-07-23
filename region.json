@@ -37,6 +37,7 @@
         "launchpad",
         "regional-planning",
         "community_planning",
+        "flood-slr",
         "zoom_to",
         "measure",
         "legend_display",
@@ -56,7 +57,7 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Georiga",
+            "title": "Georgia",
             "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/georgia' target='_blank'><b>Georgia</b></a> home page.</p>",
              "plugins": [   
                 {
