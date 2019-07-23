@@ -1,0 +1,92 @@
+{
+	"includeMinimize": true,
+    "infoGraphic": {
+		"show": false,
+		"popup": true,
+		"width":600,
+		"height":400, 
+		"url":"<img style='style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/slr_flooding_c.jpg'/>"
+	},
+	"tooltips": {
+		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
+		"climate": "Future planning horizons representing the impact of climate change.",
+		"scenario": "Sea level rise scenarios (low, medium, and high) based on the regional sea level rise amounts.",
+		"hurricane": "Hurrican categories (Saffir-Simpson hurricane wind scale, ranging from 1 to 5) used to model storm surge heights.",
+		"dataSource": "Source of hazard data to be mapped in the application.",
+		"sealevelrise": "Sea level rise inundation scenarios ranging from zero to six feet above mean higher high water (MHHW)."
+	},
+	"region": {
+		"Camden County": {
+			"url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer",
+			"layers": {
+				"main": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer"
+			},
+			"extent": {
+				"xmin": -9150825.293802444,
+				"ymin": 3616908.144389578,
+				"xmax": -9054617.437222715,
+				"ymax": 3668806.3081837194,
+				"spatialReference": {
+					"wkid": 102100,
+					"latestWkid": 3857
+				}
+			},
+			"tooltips": {
+				"scenario": { 
+					"control":"hazard",
+					"values": {
+						"sea_level_rise": { "popup": true, "width":600, "height":450, "url": "<img style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/GA_FloodSLR.png'/>" }
+					}
+				},
+				"climate": "",
+				"stormSurge": ""
+			},
+			"controls": {
+				"select": {
+					"hazard": {
+						"options": [
+							{
+								"name": " -- ",
+								"value": ""
+							},
+							{
+								"name": "NOAA Sea Level Rise",
+								"value": "sea_level_rise",
+								"controls": { "slider": ["climate", "scenario"] },
+								"images": true
+							},
+							{
+								"name": "USGS Storm Surge",
+								"value": "storm_surge",
+								"controls": { 
+									"slider": ["stormSurge"],
+									"infoGraphic": true
+								}
+							}
+						]
+					}
+				},
+				"slider": {
+					"climate": { "disabled": false, "show": true, "labels":  ["2025", "2050", "2075", "2100"] },
+					"scenario": { "disabled": false, "show": true, "labels": ["Interm.", "Interm.<br>High", "High"]  },
+					"stormSurge": { "disabled": false, "show": true, "labels": ["1", "2", "3", "4", "5"]  }
+				},
+				"infoGraphic": {
+					"storm_surge": { "popup": false, "url":"https://ow-maps.s3.amazonaws.com/slr/FloodSLRApp_StormSurge_FactSheet.pdf" }
+				}
+			},
+			"download": {
+				"report": {
+					"sea_level_rise": "https://coast.noaa.gov/data/digitalcoast/pdf/slr-inundation-methods.pdf",
+					"storm_surge": "https://tnc.app.box.com/s/fiya9hirlr28a96b0rwfmdzpb55hcx1i",
+					"default": ""
+				},
+				"data":""
+			},
+			"images": {
+				"header": "Click a photo icon on the map to visualize what the selected scenario might look like at that location. The photo selected will be highlighted.",
+				"layer": { "type": "feature", "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"SCENARIO" }
+			}
+		}
+	}
+}
