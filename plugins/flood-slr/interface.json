@@ -72,13 +72,13 @@
 					"stormSurge": { "disabled": false, "show": true, "labels": ["1", "2", "3", "4", "5"]  }
 				},
 				"infoGraphic": {
-					"storm_surge": { "popup": false, "url":"https://ow-maps.s3.amazonaws.com/slr/FloodSLRApp_StormSurge_FactSheet.pdf" }
+					"storm_surge": { "popup": false, "url":"" }
 				}
 			},
 			"download": {
 				"report": {
 					"sea_level_rise": "https://coast.noaa.gov/data/digitalcoast/pdf/slr-inundation-methods.pdf",
-					"storm_surge": "https://tnc.app.box.com/s/fiya9hirlr28a96b0rwfmdzpb55hcx1i",
+					"storm_surge": "",
 					"default": ""
 				},
 				"data":""
