@@ -20,6 +20,10 @@
             { "text": "U.S. Virgin Islands", "url": "https://maps.coastalresilience.org/usvi/" },
             { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
     ],
+    "singlePluginMode": {
+        "active": true,
+        "pluginFolderName": "flood-slr"
+    },
     "initialExtent": [
         -81.95,
         30.70,
