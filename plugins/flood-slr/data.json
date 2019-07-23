@@ -1,0 +1,29 @@
+{
+	"region": {
+		"Camden County": {
+			"sea_level_rise|2025|interm.": [1],
+			"sea_level_rise|2025|interm.<br>high": [5],
+			"sea_level_rise|2025|high": [9],
+			
+			"sea_level_rise|2050|interm.": [2],
+			"sea_level_rise|2050|interm.<br>high": [6],
+			"sea_level_rise|2050|high": [10],
+			
+			"sea_level_rise|2075|interm.": [3],
+			"sea_level_rise|2075|interm.<br>high": [7],
+			"sea_level_rise|2075|high": [11],
+			
+			"sea_level_rise|2100|interm.": [4],
+			"sea_level_rise|2100|interm.<br>high": [8],
+			"sea_level_rise|2100|high": [12],
+			
+			
+			"storm_surge|1": [29],
+			"storm_surge|2": [28,29],
+			"storm_surge|3": [27,28,29],
+			"storm_surge|4": [26,27,28,29],
+			"storm_surge|5": [25,26,27,28,29]
+			
+		}
+	}
+}
