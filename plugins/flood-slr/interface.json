@@ -77,14 +77,13 @@
 			},
 			"download": {
 				"report": {
-					"sea_level_rise": "https://coast.noaa.gov/data/digitalcoast/pdf/slr-inundation-methods.pdf",
-					"storm_surge": "",
+					"sea_level_rise": "http://www.gafloods.org/pdf/2014/Concurrent%20Session%206%202014%20GAFM%20Conference%203_27_14.pdf",
 					"default": ""
 				},
 				"data":""
 			},
 			"images": {
-				"header": "Click a photo icon on the map to visualize what the selected scenario might look like at that location. The photo selected will be highlighted.",
+				"header": "Click a photo icon on the map to visualize documented severe flooding at that location. The photo selected will be highlighted in red.",
 				"layer": { "type": "feature", "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"URL" }
 			}
 		}
