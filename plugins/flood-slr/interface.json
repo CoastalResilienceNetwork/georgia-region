@@ -53,8 +53,7 @@
 								"name": "NOAA Sea Level Rise",
 								"value": "sea_level_rise",
 								"controls": { "slider": ["climate", "scenario"] },
-								"images": true,
-								"footer":"Note: This app is not intended to provide real-time flooding risks or evacuation information or substitute for engaging your local city and county floodplain management office or emergency management officials."
+								"images": true
 							},
 							{
 								"name": "USGS Storm Surge",
