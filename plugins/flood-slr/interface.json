@@ -53,7 +53,8 @@
 								"name": "NOAA Sea Level Rise",
 								"value": "sea_level_rise",
 								"controls": { "slider": ["climate", "scenario"] },
-								"images": true
+								"images": true,
+								"footer":"Note: This app is not intended to provide real-time flooding risks or evacuation information or substitute for engaging your local city and county floodplain management office or emergency management officials."
 							},
 							{
 								"name": "USGS Storm Surge",
@@ -85,7 +86,7 @@
 			},
 			"images": {
 				"header": "Click a photo icon on the map to visualize what the selected scenario might look like at that location. The photo selected will be highlighted.",
-				"layer": { "type": "feature", "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"SCENARIO" }
+				"layer": { "type": "feature", "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"URL" }
 			}
 		}
 	}

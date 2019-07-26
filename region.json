@@ -1,6 +1,10 @@
 {
     "googleAnalyticsPropertyId": "7401895-54",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
+    "singlePluginMode": {
+        "active": true,
+        "pluginFolderName": "flood-slr"
+    },
     "titleMain": { "text": "Georgia", "url": "" },
     "titleDetail": { "text": "Georgia", "url": "https://coastalresilience.org/georgia" },
     "headerLinks": [
@@ -20,10 +24,6 @@
             { "text": "U.S. Virgin Islands", "url": "https://maps.coastalresilience.org/usvi/" },
             { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
     ],
-    "singlePluginMode": {
-        "active": true,
-        "pluginFolderName": "flood-slr"
-    },
     "initialExtent": [
         -81.95,
         30.70,
@@ -61,8 +61,8 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "Georgia",
-            "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/georgia' target='_blank'><b>Georgia</b></a> home page.</p>",
+            "title": "Georgia Flood and Sea Level Rise",
+            "description": "<div class='plugin-slr'>This app visualizes the potential inundation effects of storm surge and future sea level rise.<p><span class=' hazard-footer'>Note: This app is not intended to provide real-time flooding risks or evacuation information or substitute for engaging your local city and county floodplain management office or emergency management officials.</span></p></div>",
              "plugins": [   
                 {
                     "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
