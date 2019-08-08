@@ -61,7 +61,7 @@
  			"plugins": [              
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "View potential inundation effects of storm surge and future sea-level rise and combine with local community data. <a href= 'https://maps.coastalresilience.org/gaflood/' target='_blank'><b>Visit the mobile-friendly version!</b></a> ",
+                    "description": "<p>View potential inundation effects of storm surge and future sea-level rise and combine with local community data. View the mobile-friendly version <a href= 'https://maps.coastalresilience.org/gaflood/' target='_blank'><b>HERE</b></a></p>",
                     "pluginName": "flood-slr"
                 },
                 {
