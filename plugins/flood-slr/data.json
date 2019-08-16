@@ -17,12 +17,16 @@
 			"sea_level_rise|2100|interm.<br>high": [8],
 			"sea_level_rise|2100|high": [12],
 			
-			
 			"storm_surge|1": [29],
 			"storm_surge|2": [28,29],
 			"storm_surge|3": [27,28,29],
 			"storm_surge|4": [26,27,28,29],
-			"storm_surge|5": [25,26,27,28,29]
+			"storm_surge|5": [25,26,27,28,29],
+			
+			"fema_flood|ve": [30],
+			"fema_flood|ae": [30,31],
+			"fema_flood|a": [30,31,32],
+			"fema_flood|x": [30,31,32,33]
 			
 		}
 	}
