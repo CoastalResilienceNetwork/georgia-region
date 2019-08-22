@@ -5,7 +5,7 @@
 		"popup": true,
 		"width":600,
 		"height":400, 
-		"url":"<img style='style='position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);' src='PLUGIN-DIRECTORY/slr_flooding_c.jpg'/>"
+		"url":""
 	},
 	"tooltips": {
 		"region": "Geographic areas where climate change/sea level rise vulnerability studies have been conducted.",
@@ -58,15 +58,16 @@
 							{
 								"name": "NOAA Sea Level Rise",
 								"value": "sea_level_rise",
-								"controls": { "slider": ["climate", "scenario"] },
+								"controls": { 
+									"slider": ["climate", "scenario"]
+								},
 								"images": true
 							},
 							{
 								"name": "USGS Storm Surge",
 								"value": "storm_surge",
 								"controls": { 
-									"slider": ["stormSurge"],
-									"infoGraphic": true
+									"slider": ["stormSurge"]
 								}
 							},
 							{
@@ -97,18 +98,18 @@
 						
 				},
 				"infoGraphic": {
-					"storm_surge": { "popup": false, "url":"" }
+					"sea_level_rise": { "popup": false, "url":"https://media.coastalresilience.org/Georgia/FloodRiskApp_FactSheet.pdf" }
 				}
 			},
 			"download": {
 				"report": {
 					"sea_level_rise": "https://coast.noaa.gov/data/digitalcoast/pdf/slr-inundation-methods.pdf",
-					"storm_surge": "http://www.gafloods.org/pdf/2014/Concurrent%20Session%206%202014%20GAFM%20Conference%203_27_14.pdf ",
+					"storm_surge": "http://www.gafloods.org/pdf/2014/Concurrent%20Session%206%202014%20GAFM%20Conference%203_27_14.pdf",
 					"fema_flood": "https://www.fema.gov/flood-zones",
 					"default": ""
 				},
 				"data": {
-					"sea_level_rise": "https://media.coastalresilience.org/Georgia/FloodRiskApp_FactSheet.pdf",
+					"sea_level_rise": { "title": "Fact Sheet", "url":"https://media.coastalresilience.org/Georgia/FloodRiskApp_FactSheet.pdf", "width": 100 },
 					"default": ""
 				}
 			},
