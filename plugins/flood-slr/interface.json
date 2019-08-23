@@ -114,7 +114,7 @@
 				}
 			},
 			"images": {
-				"header": "Click a photo icon on the map to visualize what the selected scenario might look like at that location. The photo selected will be highlighted.",
+				"header": "Click a photo icon on the map to visualize documented severe flooding at that location. The photo selected will be highlighted in red.",
 				"layer": { "type": "feature", "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"URL" }
 			}
 		}
