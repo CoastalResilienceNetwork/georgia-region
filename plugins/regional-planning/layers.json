@@ -64,49 +64,6 @@
 					}
 				]	
 			},
-		    {
-		        "displayName": "Current Zoning",
-		        "server": {
-		            "type": "ags",
-		            "layerType": "dynamic",
-		            "url": "https://maps.crc.ga.gov/crcarcgis/rest/services/Camden",
-		            "name": "CamdenZoning_Current"
-		        },
-		        "includeLayers": [
-		            {
-
-		                "name": "CRC_Cam039.DBO.AllCityLimits",
-		                "displayName": "City Boundaries"
-		            },
-		            {
-		                "name": "CRC_Cam039.DBO.LandUseCurrent_2018",
-		                "displayName": "County Boundaries"
-		            },
-		            {
-		                "name": "CRC_Cam039.DBO.Kingsland_LU_2017",
-		                "displayName": "Kingsland"
-		            },
-		            {
-		                "name": "CRC_Cam039.DBO.Woodbine_ELU",
-		                "displayName": "Woodbine"
-		            },
-		            {
-						"displayName": "St. Mary's",
-						"server": {
-							"type": "ags",
-							"layerType": "dynamic",
-							"url": "https://maps.crc.ga.gov/crcarcgis/rest/services/GeodataService_StM",
-							"name": "StM_Base"
-						},
-						"includeLayers" : [
-							{
-								"name": "CRC_Cam039.DBO.City_Zoning_StM67984"
-							}
-						]
-					}
-
-        		]
-    		},
     		{
 		        "displayName": "Flood App Scenarios",
 		        "server": {
@@ -153,8 +110,11 @@
 						"name": "High_2100_8ft"
 					}
 				]
+			},
+			{
+				"name" : "Zoning",
+				"includeAllLayers": true
 			}
-		    
         ]
     }
 ]
