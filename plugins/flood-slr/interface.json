@@ -64,14 +64,14 @@
 								"images": true
 							},
 							{
-								"name": "USGS Storm Surge",
+								"name": "USACE Storm Surge",
 								"value": "storm_surge",
 								"controls": { 
 									"slider": ["stormSurge"]
 								}
 							},
 							{
-								"name": "FEMA 100-yr Flood Zones",
+								"name": "FEMA Flood Zones",
 								"value": "fema_flood",
 								"controls": { 
 									"slider": ["stormSurge"]
