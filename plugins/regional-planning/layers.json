@@ -63,58 +63,28 @@
 						]
 					}
 				]	
-			},
-    		{
-		        "displayName": "Flood App Scenarios",
-		        "server": {
-		            "type": "ags",
-		            "layerType": "dynamic",
-		            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
-		            "name": "Flood_and_SLR"
-		        },
-		        "includeLayers": [
-					{
-						"name": "Intermediate_2025_0ft"
-					},
-					{	
-						"name": "Intermediate_2050_1ft"
-					},
-					{
-						"name": "Intermediate_2075_2ft"
-					},
-					{
-						"name": "Intermediate_2100_3ft"
-					},
-					{
-						"name": "IntermediateHigh_2025_1ft"
-					},
-					{
-						"name": "IntermediateHigh_2050_2ft"
-					},
-					{
-						"name": "IntermediateHigh_2075_4ft"
-					},
-					{
-						"name": "IntermediateHigh_2100_6ft"
-					},
-					{
-						"name": "High_2025_1ft"
-					},
-					{
-						"name": "High_2050_3ft"
-					},
-					{
-						"name": "High_2075_5ft"
-					},
-					{
-						"name": "High_2100_8ft"
-					}
-				]
-			},
-			{
-				"name" : "Zoning",
-				"includeAllLayers": true
 			}
-        ]
-    }
+		]
+	},
+	{
+        "displayName": "Draft CRS Outputs",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Georgia",
+            "name": "CRS_Explorer"
+        },
+        "includeLayers": [
+            {
+                "name": "Camden Co",
+				"includeAllLayers": true				
+            },
+            {
+                "name": "St Marys",
+				"includeAllLayers": true				
+            }
+
+		]
+	}
+
 ]
