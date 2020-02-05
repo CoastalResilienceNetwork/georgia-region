@@ -114,8 +114,12 @@
 				}
 			},
 			"images": {
-				"header": "Click a photo icon on the map to visualize documented severe flooding at that location. The photo selected will be highlighted in red.",
-				"layer": { "type": "feature", "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "imageField":"URL" }
+				"header": "Click a photo icon on the map to visualize what the selected scenario might look like at that location. The photo selected will be highlighted.",
+				"layer": { "type": "feature", "url": "https://services2.coastalresilience.org/arcgis/rest/services/Georgia/Flood_and_SLR/MapServer/0", "idField":"OBJECTID", "urlField":"URL_1", "imageField":"PIC_ID" },
+				"image": {
+					"climate": ["2025", "2050", "2075", "2100"],
+					"scenario": ["I", "IH", "H"]
+				}
 			}
 		}
 	}
