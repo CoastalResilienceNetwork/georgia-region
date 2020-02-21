@@ -43,7 +43,7 @@
 					"control":"hazard",
 					"values": {
 						"storm_surge": "Hurrican categories (Saffir-Simpson hurricane wind scale, ranging from 1 to 5) used to model storm surge areas.",
-						"fema_flood": "Special Flood Hazard Areas (SFHA) defined as the area that will be inundated by a flood event having a 1-percent chance of being equaled or exceeded in any given year, i.e. 100-year flood, labeled here as Zone VE, AE, and A.  Moderate to minimal flood hazard areas are labeled as Zone X."
+						"fema_flood": "Special Flood Hazard Areas (SFHA) defined as the area that will be inundated by a flood event having a 1-percent chance of being equaled or exceeded in any given year, i.e. 100-year flood, labeled here as Zone VE, AE, and A. Zone VE: Coastal areas with 1-percent-annual-chance flood event with additional hazards due to storm-induced velocity wave action. Zone AE: Base Floodplain. Areas subject to inundation by the 1-percent-annual-chance flood event. Zone A:  Areas subject to inundation by the 1-percent-annual-chance flood event.  Zone X:  Areas subject to inundation by the 0.2-percent-annual-chance flood event."
 					}
 				}
 			},
