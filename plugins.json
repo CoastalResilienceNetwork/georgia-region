@@ -7,6 +7,10 @@
         {
             "repo": "flood-slr",
             "name": "flood-slr"
-        }
+        },
+        {
+            "repo": "community-rating-system-ga",
+            "name": "community-rating-system-ga"
+        } 
     ]
 }
