@@ -61,6 +61,11 @@
             "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/georgia' target='_blank'><b>Georgia</b></a> home page.<br><br><i>This site was prepared by Camden County staff under grant award #NA18NOS4190146 to the Georgia Department of Natural Resources from the Office for Coastal Management, National Oceanic and Atmospheric Administration. The statements, findings, conclusions, and recommendations are those of the author(s) and do not necessarily reflect the views of DNR, OCM or NOAA.</i></p>",
  			"plugins": [              
                 {
+                    "title": "<img src='img/CRSicon_active.png' hspace=10>CRS Explorer",
+                    "description": "Identifies open space to reduce flood risk and insurance premiums using Community Rating System (CRS) Open Space Preservation (OSP) credits.",
+                    "pluginName": "community-rating-system-ga"
+                },
+                {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "<p>View potential inundation effects of storm surge and future sea-level rise and combine with community data. View the mobile-friendly version <a href= 'https://maps.coastalresilience.org/gaflood/' target='_blank'><b>HERE</b></a></p>",
                     "pluginName": "flood-slr"
