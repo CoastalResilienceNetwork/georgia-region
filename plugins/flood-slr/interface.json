@@ -62,7 +62,7 @@
 								"images": true
 							},
 							{
-								"name": "USACE Storm Surge",
+								"name": "NOAA Storm Surge",
 								"value": "storm_surge",
 								"controls": { 
 									"slider": ["stormSurge"],
