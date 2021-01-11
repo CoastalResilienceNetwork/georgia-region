@@ -48,23 +48,28 @@
         "includeLayers": [
             {
                 "name": "Community Boundary",
-                "displayName": "Community Boundary"
+                "displayName": "Community Boundary",
+                "description":"Official administrative extent of CRS community."
             },
             {
                 "name": "Future OSP Eligible",
-                "displayName": "Future OSP 420 Eligible Areas"
+                "displayName": "Future OSP 420 Eligible Areas",
+                "description":"Areas within the impact adjusted special flood hazard area that have natural land uses but are not currently eligible for OSP simply because they are not legally protected from development. Privately owned parcels are prioritized because they are easier to acquire and/or establish easements with landowners. Natural land cover types include forests, wetlands, grasslands, and pasture. Resulting parcels are then filtered by those that could provide at least 1 OSP credit if protected."
             },
             {
                 "name": "Current/Proposed OSP",
-                "displayName": "Current or Proposed OSP 420 Areas"
+                "displayName": "Current or Proposed OSP 420 Areas",
+                "description":"Parcels that are eligible for Open Space Preservation credit based on their current land use or because they contribute to a regulatory setback area. Although the entire parcel is highlighted on the map, only the portion of the parcel that meets the requirements for eligibility is included in the OSP credit calculation. Parcels on vacant land are ONLY eligible if they are undeveloped, are not used as storage, and will be left as open space for at least 5 years. Local expertise is recommended to verify if the parcels identified by this app meet these qualifications prior to applying for OSP points."
             },
             {
                 "name": "Impact Adjusted Special Flood Hazard Area",
-                "displayName": "Impact Adjusted Special Flood Hazard Area"
+                "displayName": "Impact Adjusted Special Flood Hazard Area",
+                "description":"The extent of the areas eligible for consideration of Open Space Preservation credits based on criteria outlined in the 2017 CRS manual. Areas excluded are: all Federal Lands > 10 ac, open waters > 10 ac, rivers with average bank-to-bank width >500 ft, and all areas outside of FEMA's 100 yr floodplain."
             },
             {
                 "name": "Excluded Areas",
-                "displayName": "Excluded Areas"
+                "displayName": "Excluded Areas",
+                "description":"Areas not eligible for OSP 420 activity per the 2017 CRS Manual and are extracted from the special flood hazard area. National hydrography database used to extract water bodies greater than 10 acres and rivers with average bank widths greater than 500ft. Protected Areas Database of the U.S. used to extract federally or tribally owned or managed areas greater than 10 acres."
             }
         ]
     }
