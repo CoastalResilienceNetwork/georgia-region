@@ -36,5 +36,36 @@
 				"includeAllLayers": true
 			}
         ]
+    },
+    {
+        "displayName": "CRS Explorer V.2 Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://cirrus.tnc.org/arcgis/rest/services/CommunityRatingSystem",
+            "name": "CommunityRatingSystem"
+        },
+        "includeLayers": [
+            {
+                "name": "Community Boundary",
+                "displayName": "Community Boundary"
+            },
+            {
+                "name": "Future OSP Eligible",
+                "displayName": "Future OSP 420 Eligible Areas"
+            },
+            {
+                "name": "Current/Proposed OSP",
+                "displayName": "Current or Proposed OSP 420 Areas"
+            },
+            {
+                "name": "Impact Adjusted Special Flood Hazard Area",
+                "displayName": "Impact Adjusted Special Flood Hazard Area"
+            },
+            {
+                "name": "Excluded Areas",
+                "displayName": "Excluded Areas"
+            }
+        ]
     }
 ]
