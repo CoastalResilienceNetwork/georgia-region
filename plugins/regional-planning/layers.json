@@ -43,8 +43,8 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://cirrus.tnc.org/arcgis/rest/services/CommunityRatingSystem",
-            "name": "CommunityRatingSystem"
-        },
+            "name": "CommunityRatingSystem",
+        "description":"These data are the most current version of the database that supports the CRS Explorer Version 2, which can be viewed at <a href='https://crs.tnc.org/' target='_blank'><b>crs.tnc.org</b></a>"        },
         "includeLayers": [
             {
                 "name": "Community Boundary",
